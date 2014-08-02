@@ -1,7 +1,8 @@
 \version "2.16.2"
 
 \score {
-	\relative c'{
+	\relative c''{
+		\set Staff.midiInstrument = #"flute"
 		f4. g8 a  g f e 
 		f4  c  c2
 		c4. d8 f  d c b
@@ -23,6 +24,7 @@
 	\header {}
 	\layout {}
 	\midi {
+		
 		\tempo 4=140}
 }
 
