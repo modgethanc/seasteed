@@ -8,10 +8,10 @@
 		d8 c c a, c16 c8 a,16 c8 c 
 		a, g,2.
 
-		d16 e8 d16 e4
-		d16 e8 f16 e4
-		d8 e d e 
-		d e f e
+		d16 e8 d16 e4 d16 e8 f16 e4
+		d16 e8 d16 e4 d16 e8 f16 e4
+		d16 e8 d16 e8. c16 f8 e a,16 c8 c
+		a,8 g,2.
 	}
 
 	\midi {
