@@ -1,4 +1,12 @@
-\version "2.14.2"
+\version "2.18.2"
+
+celloline = {
+		f8 f g g f f g g
+	}
+
+part.cello = {}
+part.va = {}
+part.vb = {}
 
 \score {
 
@@ -34,16 +42,48 @@
 	\new Staff { \relative c, {
 		\set Staff.instrumentName = "Vlnc."
 		\clef "bass"
-		f,8 f g g f f g g
-		f8 f g g f f g g
-		f8 f g g f f g g
-		f8 f g g f f g g
-		f8 f g g f f g g
-		f8 f g g f f g g
-		f8 f g g f f g g
-		f8 f g g f f g g
-		f8 f g g f f g g
-		f8 f g g f f g g
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
+		\celloline 
 	}}
 	>>
 
@@ -54,5 +94,6 @@
 \header {
 	title = "tymesync"
 	composer = "hz"
+	tagline = "a 2005-era composition"
 }
 
