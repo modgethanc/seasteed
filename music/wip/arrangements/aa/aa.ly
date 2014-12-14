@@ -3,18 +3,29 @@
 \score {
 	<<
 	\new Staff {
-		\relative c''' {
-			\set Staff.midiInstrument = #"flute"
-			\set Staff.instrumentName = "Flute"
-			gis16 a f d
-			gis16 a f d
-			gis16 a f d
-			gis16 a f d
+		\relative c''{
+			\set Staff.midiInstrument = #"piano"
 
-			a' gis d e
-			gis f d c
-			a' gis d e
-			gis f d c
+			\clef treble
+			e16 f c a
+			e'16 f c a
+			e'16 f c a
+			e'16 f c a
+
+			e'16 f c a
+			e'16 f c a
+			e'16 f c a
+			e'16 f c a
+
+			d c f, g
+			bes a f d
+			d' c f, g
+			bes a f d
+
+			d' c f, g
+			bes a f d
+			d' c f, g
+			bes a f d
 		}
 	}
 
@@ -22,5 +33,5 @@
 	\header {}
 	\layout {}
 	\midi {
-		\tempo 4=60}
+		\tempo 4=70}
 }
